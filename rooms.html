@@ -4,160 +4,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, minimal-ui">
     <title>Document</title>
+    <link rel="stylesheet" href="roomStyle.css">
 </head>
 <body>
     <header>
-      <table><tr>
-        <th>ABOUT</th>
-        <th>ROOM</th>
-        <th>EVENT</th>
-        <th>RESTURANT</th>
-        <th>SHOP</th>
-    </tr></table> 
-    <select>
-        <option>en</option>
-    </select>
-<hr />
-    <p>
-        WIRED HOTEL is a LOCAL COMMUNITY HOTEL that organically integrates into the traditional neighborhood of Asakusa in Tokyo, Japan. We partnered with local Asakusa craftsmen to create our unique design and amenities, and hold regular cultural and community events in our first floor cafe ZAKBARAN. A boutique hotel with only 25 rooms as well as hostel type bunk bed stay options, we offer a personal way to enjoy Tokyo.
-    </p>
+        <div id="menus"><table id="fixed"><tr>
+            <th><a href = "#" class="ligthm">HOME</a></th>
+            <th><a href = "#" class="ligthm">ABOUT</a></th>
+            <th><a href = "#" class="ligthm">EVENT</a></th>
+            <th><a href = "#" class="ligthm">RESTURANT</a></th>
+            <th><a href = "#" class="ligthm">SHOP</a></th>
+            <th><img src="menu.png" width="40px" height="40px">
+            </th>
+        </tr>
+        </table>
+
+
+       <select>
+            <option>en</option>
+        </select>
+        </br></br>
+     <div id="para">
+         <p id="paras">"Where Modern Luxury and traditional comfort Meets Ethiopian Hospitality."</p>
+     </div>
     </header>
     <hr />
+<nav>
+
+</nav>
 <main>
     <h1>Room types</h1>
-    <section id="roomtypes">
-        <b>SUPRIOR CLASS</b>
-        <b>STANDARD CLASS</b>
-        <b>SPECIAL VEIW CLASS</b>
-    </section>
+    <div id="roomtypes">
+        <a href="#sup" class="ligth">SUPRIOR CLASS</a>
+        <a href="#stand" class="ligth">STANDARD CLASS</a>
+    </div>
     <hr/>
+    <div id="sup">
     <h2>SUPRIOR CLASS</h2>
-    <ul id="superior" >
-        <li>
-        <img src = "Img1.jpg" alt="room -1" width="50%" height="300px">
-            <div> 
+    <ul>
+        <li >
+            <div class="disp">
+                <div class="imageholder">
+                <img src = "Img1.jpg" class = "over" alt="room -1">
+                </div>
+                    <div class="text">
+                    <h3>LEXURY SWEET ROOMS</h3>
                 <br/>
-                <b>
-                LEXURY SWEET ROOMS 
-                <br/>I
-                ROOM 3001(10 rooms available)
-                <br/>
-                WIRED PENTHOUSEBY DUXIANA
+                <h4>ROOM 1001(10 rooms available)
+                <br/><br/>
+                    WIRED PENTHOUSEBY DUXIANA</h4>
                 <br/>
                 Size of Rooms : 40m² (KING 180 X 200)
                 <br/>
                 Capacity : 2 persons
                 </br>
+                    <button><a href="">DETAILS</a></button>
                 <button><a href="">BOOK NOW</a></button>
-                </b>
+                </div>
             </div>
         </li>
     <li>
-        <div id="superior" >
-            <img src = "Img2.jpg" alt="room -1" width="50%" height="300px">
-                <div> 
+        <div class="disp">
+            <div class="imageholder">
+                <img src = "Img2.jpg" class = "over" alt="room -1">
+            </div>
+            <div class="text">
+                <h3>LEXURY ROOMS</h3>
+                <br/>
+                <h4> ROOM 2001(50 rooms)
+                    <br/><br/>
+                    WIRED PENTHOUSEBY DUXIANA</h4>
+                <br/>
+                Size of Rooms : 40m² (KING 180 X 200)
+                <br/>
+                Capacity : 2 persons
+                </br>
+                <button><a href="">DETAILS</a></button>
+                <button><a href="">BOOK NOW</a></button>
+            </div>
+        </div>
+        </li>
+
+    </ul>
+    </div>
+    <div id="stand">
+    <h2>STANDARD CLASS</h2>
+    <ul id="standard">
+        <li>
+            <div class="disp">
+                <div class="imageholder">
+                    <img src = "Img4.jpg" class = "over" alt="room -1">
+                </div>
+                <div class="text">
+                    <h3>LEXURY ROOMS</h3>
                     <br/>
-                    <b>
-                    LEXURY ROOMS
-                    <br/>I
-                    ROOM 2001(50 rooms)
-                    <br/>
-                    WIRED PENTHOUSEBY DUXIANA
+                    <h4> ROOM 2001(50 rooms)
+                        <br/><br/>
+                        WIRED PENTHOUSEBY DUXIANA</h4>
                     <br/>
                     Size of Rooms : 40m² (KING 180 X 200)
                     <br/>
                     Capacity : 2 persons
                     </br>
+                    <button><a href="">DETAILS</a></button>
                     <button><a href="">BOOK NOW</a></button>
-                    </b>
                 </div>
-    </li>
-    <li>
-        <div id="superior" >
-            <img src = "Img3.jpg" alt="room -1" width="50%" height="300px">
-                <div > 
+            </div>
+        </li>
+        <li>
+            <div class="disp">
+                <div class="imageholder">
+                    <img src = "Img4.jpg" class = "over" alt="room -1">
+                </div>
+                <div class="text">
+                    <h3>LEXURY ROOMS</h3>
                     <br/>
-                    <b>
-                    LEXURY INFRIOR ROOMS 
-                    <br/>I
-                    ROOM 1001
-                    <br/>
-                    WIRED PENTHOUSEBY DUXIANA
+                    <h4> ROOM 2001(50 rooms)
+                        <br/><br/>
+                        WIRED PENTHOUSEBY DUXIANA</h4>
                     <br/>
                     Size of Rooms : 40m² (KING 180 X 200)
                     <br/>
-                    Capacity : 4 persons
+                    Capacity : 2 persons
                     </br>
+                    <button><a href="">DETAILS</a></button>
                     <button><a href="">BOOK NOW</a></button>
-                    </b>
                 </div>
-    </li>
+            </div>
+            </li>
     </ul>
-    <h2>STANDARD CLASS</h2>
-    <ul id="standard">
-        <li>
-            <img src = "Img4.jpg" alt="room -1" width="50%" height="300px">
-                <div> 
-                    <br/>
-                    <b>
-                        ROOM s1000(20rooms)
-                        <br/>
-                        STANDARD COMPACT
-                        <br/>
-                        Size of Rooms : 12~16m² (DOUBLE 140 X 200)
-                        <br/>
-                        Capacity : 3 persons
-                        <br/>     
-                        <button><a href="">BOOK NOW</a></button>
-                    </b>
-                </div>
-            </li> 
-        <li>
-            <img src = "Img5.jpg" alt="room -1" width="50%" height="300px">
-                <div> 
-                    <br/>
-                    <b>
-                        ROOM s2000(100rooms)
-                        <br/>
-                        STANDARD COMPACT
-                        <br/>
-                        Size of Rooms : 16m² (DOUBLE 140 X 200)
-                        <br/>
-                        Capacity : 2 persons
-                        <br/>     
-                        <button><a href="">BOOK NOW</a></button>
-                    </b>
-                </div>
-            </li> 
-    </ul> 
     <br/>
-    <form>
-        <legend>BOOKING</legend>
-        <labelfor="start">Arrival Date</label>
-        <input type="date" id="start" value="01/01/2003">
-        <labelfor="nights" value="1">nights</label>
-        <input type="number" id="nights" value="2">
-        <labelfor="rooms" >Rooms</label>
-        <input type="number" id="rooms" value="1"></br>
-        <label for="typeofroom">Type of Room</label>
-        <select id="typeofroom">
-            <option>Standard sweet</option>
-            <option>Standard Luxury</option>
-            <option>Luxury inferior</option>
-            <option>Normal class</option>
-            <option>4 bed rooms</option>
-        </select></br>
-        <labelfor="Adults">Adults</label>
-        <input type="number" id="Adults" value="1">
-        <labelfor="Adults">Child</label>
-        <input type="number" id="Adults" value="0">
+    <form id="inputs">
+
+        <div class="form" style="flex-grow: 3;"><labelfor="start">Arrival Date</label>
+        </br><input type="date" id="start" value="2003-01-01"></div>
+        <div  class="form"><labelfor="nights" value="1">nights</label>
+            </br>  <input type="number" id="nights" value="2"></div>
+        <div class="form"><labelfor="rooms" >Rooms</label>
+            </br><input type="number" id="rooms" value="1"></br></div>
+        <div class="form">
+            <labelfor="Adults">Adults</label>
+            </br><input type="number" id="Adults" value="1">
+        </div> <div class="form">
+            <labelfor="child">Child</label>
+            </br><input type="number" id="child" value="0">
+        </div>
+
         <button>BOOK NOW</button>
 
     </form>
 
 </div>
+    </div>
 </main>
 <footer><a href="">CONTACT US</a> <a href="">COMPANY INFO</a> <a href="">RECURIT</a></footer>
-
+    <script src="roomJS.js"></script>
 </body>
+
 </html>
