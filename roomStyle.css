@@ -1,0 +1,211 @@
+:root {
+    margin: 10px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background: #e4dcdc;
+    position: sticky;
+}
+
+table#fixed {
+    margin-top: 1%;
+    margin-left: 0;
+    width: 100%;
+    font-size: calc(10px + 2vmin);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 20px;
+
+}
+select{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 50px;
+    position:fixed;
+    top: 30px;
+    left: 10px;
+}
+header{
+    background-image: url("Img4.jpg");
+    height: 25em;
+    background-size:  100% 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+div#para{
+    width: 100%;
+    flex-grow: 20;
+    text-align: center;
+    font-family: "Segoe UI Emoji";
+    font-style: oblique;
+    word-wrap: anywhere;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: auto;
+}
+#paras{
+    margin-left: 2%;
+    text-align: center;
+    padding-left: 1%;
+    padding-top: 4%;
+    overflow: hidden;
+    font-weight: 300;
+    font-size: calc(10px + 4vmin);
+    color: #f8eded;
+}
+#inputs{
+    background-color: #353434;
+    color: white;
+    display: flex;
+    width: auto;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    height: 10em;
+    align-items: center;
+}
+ul#leftside{
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 30em;
+}
+
+input{
+    margin: 20px;
+    background-color: #a19898;
+    width: 60px;
+    height: 25px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+}
+input:hover{
+    color: black;
+}
+input#start{
+     background-color: #a19898;
+    width: 100px;
+ }
+select{
+    background-color: transparent;
+    margin: 5px;
+}
+button{
+    background: #cc0e0e;
+    height: 40px;
+}
+div.form{
+    width: auto;
+    margin:2px;
+    flex-grow: 2;
+}
+ul{
+    list-style-type: none;
+}
+@media (min-width: 1000px) {
+    .disp {
+        opacity: 1;
+        filter: blur(1px);
+        transition: all 1s;
+        transform: translateY(-30%);
+        border: 5px solid #ddd8d8;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .dispnew {
+        opacity: 1;
+        filter: blur(0px);
+        transform: translateY(0%);
+        border: 5px solid #ddd8d8;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 999px) {
+    .disp{
+        opacity: 0;
+        filter: blur(1px);
+        transition: all 1s;
+        transform: translateY(-30%);
+        border: 5px solid #ddd8d8;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+    .dispnew {
+        opacity: 1;
+        filter: blur(0px);
+        transform: translateY(0%);
+        border: 5px solid #ddd8d8;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+}
+#roomtypes{
+    display: flex;
+    justify-content: space-evenly;
+}
+h1,h2,h3,h4,h5{
+    text-align: center;
+}
+div.text {
+        text-align: center;
+        font-weight: 500;
+        flex-grow: 0.3;
+    }
+.over {
+        width: 100%;
+        height: 100%;
+    }
+.imageholder {
+        flex: 0.7;
+        height: 20em;
+        width: 70%;
+    }
+a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    margin: 30px;
+}
+a.ligth{
+    text-decoration: underline;
+    font-weight: 700;
+    margin: 30px;
+    text-underline-offset: 30px;
+}
+a.ligthm:hover,a.ligth:hover{
+    color: black;
+    font-weight: 900;
+}
+button:hover{
+    background-color: #a19898;
+}
+footer
+{
+    margin-top: 5%;
+}
