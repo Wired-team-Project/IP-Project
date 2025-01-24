@@ -1,21 +1,18 @@
-#Title: Wired Hotel Website   and  Tetris
-#Group: 9
-#Group Members: 
+# Title: Wired Hotel Website and Tetris Game
+# Group: 7
+# Group Members:
 ------------------------------------
-Name&nbsp;&nbsp;&nbsp;|ID&nbsp;&nbsp;
+Name             | ID
 ------------------------------------
-Mitiku Tadesse&nbsp;|&nbsp;ETS0964/15
-
+Mitiku Tadesse   | ETS0964/15
 ------------------------------------
-Mosisa Feyissa&nbsp;|&nbsp;ETS0973/15
+Mosisa Feyissa   | ETS0973/15
 ------------------------------------
-Nahon Hailu&nbsp;&nbsp;|&nbsp;ETS1003/15
+Nahon Hailu      | ETS1003/15
 ------------------------------------
-Nardos Bisrat&nbsp;|&nbsp;ETS1026/15
-
+Nardos Bisrat    | ETS1026/15
 ------------------------------------
-Natanim Teshome&nbsp;|&nbsp;ETS1034/15
-
+Natanim Teshome  | ETS1034/15
 ------------------------------------
-Nathan Hailemariam&nbsp;|&nbsp;ETS1041/15
+Nathan Hailemariam | ETS1041/15
 ------------------------------------
